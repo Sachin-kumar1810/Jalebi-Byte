@@ -1,0 +1,152 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jalebi Byte</title>
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="top-nav">
+    <div class="nav-left">
+      <h1>जलेबी <span>Byte</span></h1>
+    </div>
+    <div class="nav-right">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sweets">Sweets</a></li>
+          <li><a href="#items">Items</a></li>
+          <li><a href="#snacks">Snacks</a></li>
+          <li><a href="#order">Order</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <video autoplay muted loop id="bg-video">
+      <source src="./image/background2.mp4 " type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="overlay glow-text"><b>जलेबी Bytes</b></div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Jalebi Byte is not just a sweet shop – it's a flavorful journey of tradition, taste, and innovation. 
+    We specialize in delivering fresh, authentic Indian sweets and snacks right to your doorstep. 
+    Every item is prepared with handpicked ingredients, rooted in heritage but packed with modern delight.
+    Whether it’s a festive celebration or your midnight craving – Jalebi Byte is here to serve you with love, warmth, and sweetness.
+  </p>
+  </section>
+
+  <!-- Sweets Section -->
+  <section id="sweets">
+    <h2>Our Sweets</h2>
+    <div class="sweets-gallery">
+
+      <!-- Sweet items here -->
+       <div class="sweet-item">
+        <img src="./image/motichur ladu.jpg" alt="Motichur ladu" />
+       <p><b>Motichur ke Ladu</b></p>
+      </div>
+      <div class="sweet-item">
+        <img src="./image/bengali gulab jamun.jpg" alt="Gulab Jamun" />
+        <p><b>Bengali Gulab Jamun</b></p>
+      </div>
+      <div class="sweet-item">
+        <img src="./image/balu shahi.jpg" alt="Balushahi" />
+        <p><b>Balushahi</b></p>
+      </div>
+      <div class="sweet-item">
+        <img src="./image/kaju katli.jpg" alt="Kaju Katli" />
+        <p><b>Kaju Katli</b></p>
+      </div>
+      <div class="sweet-item">
+        <img src="./image/milk cake.jpg" alt="Milkcake" />
+        <p><b>Milkcake</b></p>
+      </div>
+      <div class="sweet-item">
+        <img src="./image/soan papdi.jpg" alt="Soan Papdi" />
+        <p><b>Soan Papdi</b></p>
+      </div>
+      <div class="sweet-item">
+        <img src="./image/imarty.jpg" alt="Imarti" />
+        <p><b>Imarti</b></p>
+      </div>
+      <div class="sweet-item">
+        <img src="./image/panjari.jpg" alt="Panjari" />
+        <p><b>Panjari</b></p>
+      </div>
+      <div class="sweet-item">
+        <img src="./image/pada.jpg" alt="Peda" />
+        <p><b>Peda</b></p>
+      </div>
+      <div class="sweet-item">
+        <img src="./image/khoya barfi.jpg" alt="Khoya Barfi" />
+        <p><b>Khoya Barfi</b></p>
+      </div>
+      <div class="sweet-item">
+        <img src="./image/soan papdi.jpg" alt="Soan Papdi" />
+        <p><b>Soan Papdi</b></p>
+      </div>
+      <div class="sweet-item">
+        <img src="./image/plain barfi.jpg" alt="Barfi" />
+        <p><b> Barfi</b></p>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Section -->
+  <section id="order" class="order-section">
+    <div class="delivery-info">
+      <h3>Delivery Info</h3>
+      <p>Ensure your delivery address is complete and correct (include house number, landmark, PIN code).</p>
+      <p>Delivery times are estimated, and may vary due to traffic, weather, or restaurant preparation.</p>
+      <p>You can pay via cash on delivery (COD), UPI, credit/debit card, or wallet.</p>
+      <p>Contact customer support immediately if you face any issue.</p>
+      <p>Share feedback only through the app; do not pressure the delivery partner for additional services.</p>
+      <p><strong>Standard:</strong> 45–60 min</p>
+      <p><strong>Fast:</strong> under 30 min</p>
+      
+    </div>
+    <form id="order-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
+      </div>
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit">Submit Order</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Thank you for visiting!</p>
+    <div class="social-media">
+      <a href="https://instagram.com/jalebibyte" target="_blank">www.Instagram.com</a>
+      <a href="https://facebook.com/jalebibyte" target="_blank">www.Facebook.com</a>
+    </div>
+  </footer>
+
+</body>
+</html>
