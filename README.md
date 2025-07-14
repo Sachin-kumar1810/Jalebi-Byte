@@ -6,7 +6,7 @@
 
 - 📫 How to reach me **itssachinkumar.2005@gmail.com**
 
-- 📄 Know about my experiences [I am 3yr BCA student at JCC(Jaganath community college](I am 3yr BCA student at JCC(Jaganath community college)
+- 📄 Know about my experiences (I am 3yr BCA student at JCC(Jaganath community college )
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
